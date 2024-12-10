@@ -1,0 +1,10 @@
+services:
+  discord-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: discord-bot
+    restart: unless-stopped
+    # Optional: Define a .env file to manage secrets securely
+    env_file:
+      - .env
