@@ -1,0 +1,5 @@
+humanize
+discord
+pillow
+requests
+python-dotenv
